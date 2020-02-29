@@ -1,0 +1,47 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+header{
+    background: url(person-in-beige-top-on-mountain-cliff-1134188.jpg);
+    background-size: cover;
+    height: 35vh;
+}
+header h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    background: #000;
+}
+.fixed-nav nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow:0 5px rgba(0, 0, 0, 0.1) ;
+}
+nav ul{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 1rem;
+}
+nav ul li{
+    font-size: 1.8rem;
+    list-style: none;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.site-wrap{
+    font-size: 1.4rem;
+    padding: 4rem;
+    text-align: center;
+}
+.site-wrap p{
+    margin: 1.5rem;
+    background: rgb(212, 210, 210);
+    padding: 1rem;
+}
